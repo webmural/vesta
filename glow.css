@@ -1,11 +1,12 @@
 ::selection {
-  background: #111;
-  color: violet;
+  background: lemonchiffon;
+  color: purple;
 }
 
 :root {
   color: #111;
   background: violet;
+  background-image: linear-gradient(.5turn, violet, salmon);
 }
 
 :any-link {
@@ -13,6 +14,7 @@
 }
 
 :focus {
+  outline: thick dotted;
   text-shadow:
     -5px 0 0 blueviolet,
     3px 3px 0 blueviolet,
